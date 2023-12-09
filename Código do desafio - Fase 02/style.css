@@ -1,0 +1,152 @@
+body {
+    margin: 0;
+  
+    font-family: "Open Sans", sans-serif;
+  
+    background: linear-gradient(180deg, rgb(227, 255, 248, 0) 82.08%, rgb(227, 255, 248, 0.38) 100%);
+  
+    min-height: 100vh;
+  }
+  
+  .page {
+    width: 1280px;
+    margin: 0 auto;
+    padding-top: 65px;
+    height: 720px;
+    flex-shrink: 0;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+    margin-bottom: 55px;
+
+    width: 1005.785px;
+    height: 26px;
+    flex-shrink: 0;
+
+  }
+  
+  ul {
+    display: flex;
+    list-style: none;
+    gap: 48px;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Mulish', sans-serif;
+  }
+  
+  a {
+    color: #1f1534;
+    text-decoration: none;
+  }
+  
+  ul li a {
+      opacity: 0.5;
+  }
+  
+  ul li a:hover {
+    font-weight: bold;
+    opacity: 1;
+  }
+  
+  main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 1008.787px;
+    height: 433.64px;
+    flex-shrink: 0;
+  
+  }
+    
+  h1 {
+    font-size: 49px;
+    line-height: 56px;
+    color: #1f1534;
+  
+    font-weight: normal;
+  
+    width: 490px;
+  }
+  
+  h1 span {
+    color: #89c5cc;
+    font-weight: bold;
+  }
+  
+  section p {
+    width: 438.342px;
+    font-size: 14px;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    color: #7d7987;
+  
+    margin: 40px 0;
+  }
+  
+  button {
+    color: white;
+    text-transform: uppercase;
+    font-family: "Open Sans", sans-serif;
+  
+    background: #69B99D;
+    border: 0;
+    padding: 14px 32px 15px;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  
+    border-radius: 4px;
+  
+    cursor: pointer;
+  }
+  
+  button:hover {
+      background: #4EA788;
+  }
+  
+
+  footer {
+    
+    font-size: 14px;
+    line-height: 28px;  
+    text-align: center;  
+    margin-top: 80px;
+       
+    color: #000;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 400;
+    
+  }
+  
+  footer a {
+    font-weight: bold;
+
+    color: #000;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+
+  }
+  
+  #balls {
+      position: fixed;
+      bottom: 10;
+      right: 0;
+
+      width: 98.47px;
+      height: 88.001px;
+      flex-shrink: 0;
+      opacity: 0.5;
+  }
+  
